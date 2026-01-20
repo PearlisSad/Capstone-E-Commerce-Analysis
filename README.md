@@ -1,5 +1,8 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+
+Dataset used: https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci
+
 ## Template Instructions
 
 Welcome,
