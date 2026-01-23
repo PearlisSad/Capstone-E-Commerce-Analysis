@@ -80,9 +80,20 @@ I would have like to implement Machine Learning in order to
 # Exploratory Data Analysis
 
 ![](assets/distribution_of_numerical_features.png)
+- Shows us the distribution of numerical features.
+
 ![](assets/boxplot_distributions_of_numerical_features.png)
+- Shows us the Boxplot distribution of numerical features. There is quite a large variety data within Quantity, Price and in turn Revenue.
+
 ![](assets/corr_matrix.png)
+- Shows the correlation of various numeric features
+- High Positive Correlation between Revenue and Quantity: Shows us that transactions that order a higher quanitity of products often results in higher revenue gained.
+- Weak Negative Correlation between Revenue and Price: Tells us that higher priced items could result in lower revenue per transaction.
+- No Correlation between Price and Quantity: Tells us that the quantity of items purchased are not dictated by the price of the items.
 ![](assets/monthly_revenue_over_2_years.png)
+- This shows us the general trend of revenue of the company over the 2 years.
+- This shows that there is a gradual increase in revenue around september-October followed by a peak in November.
+-This tells the company that marketing campaigns and restocking should occur within these months as they have the most revenue generated over the year.
 
 ## Credits
 - ***Code Institute LMS*** - Pandas and Data Visualisation
