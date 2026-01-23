@@ -96,6 +96,7 @@ I would have like to implement Machine Learning in order to
 -This tells the company that marketing campaigns and restocking should occur within these months as they have the most revenue generated over the year.
 
 ## Credits
+- ***Generative AI*** - Through various debugging and optimisation of code.
 - ***Code Institute LMS*** - Pandas and Data Visualisation
 - ***Code Institute MasterClass files*** - Pandas, Data Visualisation and Machine Learning
 - ***W3 Schools*** - Python refresher
