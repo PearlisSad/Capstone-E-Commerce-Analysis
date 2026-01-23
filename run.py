@@ -130,7 +130,20 @@ with tab2:
     st.plotly_chart(fig, use_container_width=True)
 
 with tab3:
-    print("wahwah")
+    st.subheader("Price vs Quantity Analysis")
+
+    fig = px.scatter(
+        filtered_sales,
+        x="Price",
+        y="Quantity",
+        title="Relationship Between Price and Quantity",
+        labels={
+            "Price": "Unit Price (£)",
+            "Quantity": "Quantity Purchased"
+        }
+    )
+
+    st.plotly_chart(fig, use_container_width=True)
     
 
 with tab4:
@@ -153,6 +166,8 @@ with tab4:
         title="Top 10 Products by Revenue"
     )
     st.plotly_chart(fig, use_container_width=True)
+
+
 
 ### Tabs End
 
