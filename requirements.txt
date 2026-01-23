@@ -1,6 +1,6 @@
 streamlit==1.24.1
 pandas>2.0
-numpy==1.25.1
+numpy>1.25.1
 matplotlib
 seaborn
 #ydata-profiling==4.12.0 # can be removed from requirements before deployment
